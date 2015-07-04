@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
+import be.hanoulle.android.firsttddonandroid.core.HelloWorld;
 
 public class HelloWorldTDD extends ActionBarActivity {
 
@@ -13,7 +14,7 @@ public class HelloWorldTDD extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hello_world_tdd);
         TextView view = (TextView) findViewById(R.id.message);
-        view.setText("Ciao baby 3!");
+        view.setText(new HelloWorld().message());
     }
 
     @Override
