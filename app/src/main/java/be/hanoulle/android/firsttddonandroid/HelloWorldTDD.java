@@ -13,7 +13,7 @@ public class HelloWorldTDD extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hello_world_tdd);
         TextView view = (TextView) findViewById(R.id.message);
-        view.setText("Ciao!");
+        view.setText("Ciao baby 3!");
     }
 
     @Override
